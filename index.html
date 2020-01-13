@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body id="home" class="open-left">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+                        <li><a href="#intro">Intro </a></li>
+                        <li><a href="#menu" > Snack menu</a></li>
+                        <li><a href="https://www.lannaist.ac.th/" >Lanna Website </a></li>
+                        <li><a href="#contact" > Contact us</a></li>
+                        <li><a href="page2.html" >Next page </a></li>
+            </ul>
+        </div>
+        <div class="togglebar">
+            <!-- adds the class of hide to .offcanvas.left -->
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="center">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#intro" >Intro </a></li>
+                        <li><a href="#menu" > Snack menu</a></li>
+                        <li><a href="https://www.lannaist.ac.th/" >Lanna Website </a></li>
+                        <li><a href="#contact" > Contact us</a></li>
+                        <li><a href="page2.html" >Next page </a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <main>
+                    <article>
+                        <figure class="hero">
+                            <img src="img/SSP.jpeg" alt="School Snack Shop Photo"/>
+                            <figcaption>
+                                <h1>School Snack Shop</h1>
+                            </figcaption>
+                        </figure>
+                        <h2 id="intro" style="font-size: 2em">Lanna Secondary Shcool Snack Shop</h2>
+                        <hr>
+                        <p>
+                            <b>Lanna School Snack Shop</b> is openned 30 minutes a day during the school lunch abd break, and it has made about ฿21,000 in profit last year. For the students, it’s been a <i>real life</i> business lesson on the risk of <strong>relying</strong> on a star product and on the power of lawmakers to wreak havoc on small companies.  
+                        </p>
+                        <p>
+                            The shop has a lot different options of food and drinks to choose. They recieve their products from the <q>snack shop lady</q>. But they get their bread from German lady. She bakes the bread every morning and delivers to the school snack shop.
+                        </p>
+                        <p>In the beginning we started this business as our course of Enterprise subject, but this is really a great opportunity for us to learn and have experience about it. I am glad that I choose Enterprise.</p>
+                        <!-- Tables-->
+                        <table class="styled">
+                            <colgroup>
+                                <col style="background-color: lightcyan;">
+                            </colgroup>
+                            <colgroup>
+                                <col style="background-color: #ff6d6d;" span="2">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>Product name</th>
+                                    <th>Cost</th>
+                                    <th>Berief explanation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <h2 id="menu" style="font-size: 2em">Lanna Secondary Shcool Snack Shop Menu</h2>
+                                <tr>
+                                    <td>Pretzel</td>
+                                    <td>฿20</td>
+                                    <td>Delicious German round bread</td>
+                                </tr>
+                                <tr>
+                                    <td>Sandwich</td>
+                                    <td>฿25</td>
+                                    <td>Simple tasty hand and cheeese sandwich</td>
+                                </tr>
+                                <tr>
+                                    <td>Fruit Juice</td>
+                                    <td>฿25</td>
+                                    <td>100% pure and fresh furit juice</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h2 id="pic" style="font-size: 2em"> School snack pictures</h2>
+                        <body>
+                            <div class="row">
+                                <div class="column">
+                                  <img src="img/pretzel.jfif" alt="Delicious loooking pretzel" style="width:100%">
+                                </div>
+                                <div class="column">
+                                  <img src="img/aj.jfif" alt="100% pure and fresh juice" style="width:100%">
+                                </div>
+                                <div class="column">
+                                  <img src="img/hcs.jfif" alt="Ham and Cheese Sandwich" style="width:100%">
+                                </div>
+                              </div>
+                        </body>
+                    </article>
+                </main>
+                <footer>
+                    <section>
+                        <table class="styled">
+                            <tr>
+                                <th colspan="2">Working Hours</th>
+                            </tr>
+                            <tr>
+                                <td>mon-fri</td>
+                                <td>11am-11:30am, 12:45pm-1:20pm</td>
+                            </tr>
+                            <tr>
+                                <td>sat-sun</td>
+                                <td>closed</td>
+                            </tr>
+                        </table>
+                        <table class="styled">
+                            <tr>
+                                <th colspan="2">Contact Info</th>
+                            </tr>
+                            <tr>
+                                <td>Cell:</td>
+                                <td>0934245923</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td>SSS@gmail.com</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <form action="/action_page.php" id= "contact">
+                            <legend><b>Contact Us</b></legend>
+                            <input type="text" name="fullname" placeholder="Full name">
+                            <input type="text" name="email" placeholder="Email">
+                            <textarea name="msg" placeholder="Write message here"></textarea>
+                            <input type="submit" value="Submit">
+                            <!-- https://www.w3schools.com/tags/tag_form.asp -->
+                        </form>
+                    </section>
+                </footer>
+            </section>          
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
+
